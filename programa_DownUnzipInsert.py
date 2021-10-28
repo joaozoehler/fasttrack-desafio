@@ -65,4 +65,6 @@ if conn.is_connected():
         cursor.execute(sql, tuple(row))
         print(f"Dado inserido")
 
+# Adiciona coluna "id" com incrementação automática
+    cursor.execute(f"ALTER TABLE {nome_tabela} ADD id INT NOT NULL PRIMARY KEY AUTO_INCREMENT FIRST")
 conn.commit()
