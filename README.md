@@ -1,13 +1,13 @@
-** Este documento contém algumas informações importantes sobre o projeto listado neste repositório
+# Este documento contém algumas informações importantes sobre o projeto listado neste repositório
 
-# Desafio final da Fast Track em Data & Analytics, Compasso UOL, Chapecó (SC), 2021-09
+## Desafio final da Fast Track em Data & Analytics, Compasso UOL, Chapecó (SC), 2021-09
 
-# Descrição dos arquivos na raiz do repositório
+### Descrição dos arquivos na raiz do repositório
 * programa_DownUnzipInsert.py = versão para execução local das tarefas: 1) download de um dataset do Kaggle, 2) unzip do arquivo baixado (reconhecido previamente), 3) leitura via Pandas, 4) carga em um banco de dados MySQL instalado localmente, 5) adição de coluna "id" incremental na tabela "transactions" criada no schema, 6) adição de colunas ano/mês/dia e contabilização de mês a partir da coluna "step" e, por fim, 7) substituição de valores em duas colunas ("age" e "gender");
 * programa_CriarSchemaAnalytic.py = versão para execução local da criação de novo schema a partir da tabela "transactions" no banco criado anteriormente (denominado "desafio_pagseguro");
 * conhecendo_dataset.ipynb = notebook criado via VScode para conhecimento dos dados registrados no dataset;
 
-# Descrição dos arquivos na pasta "execucao_airflow"
+## Descrição dos arquivos na pasta "execucao_airflow"
 * programa_etl.py = programa com a DAG principal dessa atividade no Apache Airflow;
 * unzip.py = download e unzip do dataset oriundo do Kaggle;
 * sql.py = criação do schema "desafio_pagseguro" e da tabela "transactions";
