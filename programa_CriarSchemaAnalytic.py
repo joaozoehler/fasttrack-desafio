@@ -36,7 +36,7 @@ if conexao.is_connected():
 
     cursor.execute('CREATE TABLE fact_customer_kpi\
                     SELECT\
-                    CONCAT (t.ano, "-", t.mes, "-", t.ano) AS data,\
+                    CONCAT (t.ano, "-", t.mes, "-", t.dia) AS data,\
                     t.merchant,\
                     t.customer,\
                     SUM(t.amount) AS TPV,\
