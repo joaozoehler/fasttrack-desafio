@@ -16,3 +16,7 @@
 
 ## Descrição dos arquivos na pasta "consultas_sql"
 * Consultas .sql criadas via MySQL Workbench para testes prévios à ingestão (organização dos códigos) e posteriores (teste com o banco de dados criado localmente via Apache Airflow ou Python)
+
+## Descrição dos arquivos na pasta "dataset"
+* bs140513_032310.csv.zip = dataset zipado obtido via download do Kaggle
+* bs140513_032310.csv = dataset mencionado acima, em sua versão descompactada
