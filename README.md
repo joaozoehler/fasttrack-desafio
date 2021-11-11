@@ -1,6 +1,6 @@
 # Este documento contém algumas informações importantes sobre o projeto listado neste repositório
 
-## Desafio final da Fast Track em Data & Analytics, Compasso UOL, Chapecó (SC), 2021-09
+## Desafio final da Fast Track em Data & Analytics #202109AWS
 
 ### Descrição dos arquivos na raiz do repositório
 * programa_DownUnzipInsert.py = versão para execução local das tarefas: 1) download de um dataset do Kaggle, 2) unzip do arquivo baixado (reconhecido previamente), 3) leitura via Pandas, 4) carga em um banco de dados MySQL instalado localmente, 5) adição de coluna "id" incremental na tabela "transactions" criada no schema, 6) adição de colunas ano/mês/dia e contabilização de mês a partir da coluna "step" e, por fim, 7) substituição de valores em duas colunas ("age" e "gender")
